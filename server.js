@@ -1,7 +1,7 @@
 var StaticServer = require('static-server');
 var server = new StaticServer({
   rootPath: './dest',            // required, the root of the server file tree
-  port: 1994,               // required, the port to listen
+  port:1994,               // required, the port to listen
 
 });
 
