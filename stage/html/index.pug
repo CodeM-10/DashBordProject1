@@ -10,7 +10,7 @@ html(lang="en")
             include layout/header.pug
             .main_content  
                 include layout/sidebar.pug
-                section(class="contentPage" , id="contentPage") 
+                main(class="contentPage" , id="contentPage") 
                     .container
                         .section.top_page    
                             .head_page
@@ -24,8 +24,41 @@ html(lang="en")
                             .sub_head
                                 h3 Overview
                                 i(class="material-icons calender_icon") event_available
+                        
+                        .section.body_content
+                            section.content_statistics
+                                //- Total Number of Transaction
+                                .box_stat#num_transaction
+                                    span: span.intro_circle
+                                        h4 1500
+                                    h3 Total Number <br> of Transaction
+                                    .choose_icon#choose_icon
+                                        i.material-icons more_vert
+                                        ul.choose_lest#choose_lest
+                                            li: a(href="#") View
+                                            li: a(href="#") Delete
+                                //- Total Number of Trade
+                                .box_stat#num_trade
+                                    span: span.intro_circle
+                                        h4 45503
+                                    h3 Total Number <br> of Trade
+                                    .choose_icon#choose_icon
+                                        i.material-icons more_vert
+                                        ul.choose_lest#choose_lest
+                                            li: a(href="#") View
+                                            li: a(href="#") Delete
+                                //- Market Rate Value
+                                .box_stat#Market_Rate
+                                    span: span.intro_circle
+                                        h4 87%
+                                    h3 Market <br> Rate Value
+                                    .choose_icon#choose_icon
+                                        i.material-icons more_vert
+                                        ul.choose_lest#choose_lest
+                                            li: a(href="#") View
+                                            li: a(href="#") Delete
 
-
+                        
 
 
     include layout/scripts.pug 
