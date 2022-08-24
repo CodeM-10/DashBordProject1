@@ -22,7 +22,7 @@ const
     }
     //css
     function CssTask() {
-        return src(["stage/css/**/*.css" , "stage/css/**/*.sass"])
+        return src(["stage/css/**/*.css" , "stage/css/**/*.scss"])
         .pipe(sourcemaps.init())
         .pipe(sass({outputStyle:'compressed'}).on('error',sass.logError))
         .pipe(autoprefixer())
@@ -44,7 +44,7 @@ const
         require("./server.js");
         livereload.listen();
         gulp.watch("stage/html/**/*.pug", parallel(htmlTask));
-        gulp.watch(["stage/css/**/*.css" , "stage/css/**/*.sass"], parallel( CssTask));
+        gulp.watch(["stage/css/**/*.css" , "stage/css/**/*.scss"], parallel( CssTask));
         gulp.watch(["stage/js/*.js"], parallel( jsTask));
 
 

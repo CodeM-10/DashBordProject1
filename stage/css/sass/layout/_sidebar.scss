@@ -1,0 +1,94 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 292px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-right: 2px solid #F0F0F0 ; 
+    transition: margin-left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
+ 
+
+    .link_sidebar{
+        li{
+            a{
+                padding-left: 45px;
+                margin-top: 28px;
+
+                position: relative;
+                display: flex;
+                align-items: center;
+            
+            
+                height: 50px;
+                line-height: 50px;
+                
+                width: 95%;
+                color: #858585;
+                font-size: 17px;
+                padding-right: 18px ;
+
+                i{
+                    padding-right: 20px;
+                    font-size: 20px;
+                    background: -webkit-linear-gradient( #d53a9d, #522999);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+
+                }
+                .num_in_li{
+                    position: relative;
+                    font-size: 10px;
+                    color: #fff;
+                    background: linear-gradient(0deg, #522999, #d53a9d);
+                    border-radius: 50%;
+                    
+                    padding: 6px;
+                
+                    display: flex;
+                    align-items: center;
+                    margin-left: 45%;
+
+                    height: 20px;
+                    width: 23px;
+                
+                }
+                .num_long_text{
+                    margin-left: 20%;
+                }
+                
+                &:focus{
+                    background: -webkit-linear-gradient( #d53a9d, #522999);
+                    color:#fff;
+                    border-radius: 0 50px 50px 0px;
+                 
+                }
+            }//- end a
+        }
+    }//- end link_sidebar{
+
+    .last_sidebar{
+        margin-top: 33px;
+        li{
+            a{
+                position: relative;
+                display: flex;
+                align-items: center;
+                padding: 20px;
+                height: 45px;    
+                padding-left: 130px;
+                color:#858585 ;
+                font-size: 17px;
+                margin-right: 18px ;
+
+                &:focus{
+                    background: -webkit-linear-gradient( #d53a9d, #522999);
+                    color:#fff;
+                    border-radius: 0 50px 50px 0px;
+                }
+            }
+        }
+
+
+    }
+
+}//- end sidebar 

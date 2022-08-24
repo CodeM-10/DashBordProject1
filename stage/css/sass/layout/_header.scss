@@ -1,0 +1,136 @@
+
+//- header 
+.header{
+    height:5.5rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #f0f0f0;
+
+    .logo{
+        position: relative;
+        color: #5c5c5c;
+        left: 60px;
+        top: 20px;
+        font-size: 26px;
+    }
+
+    .top_right_header{
+        position: absolute;
+        display: flex;
+        right: 90px;
+        //- Search Code 
+        .conteant_search{
+            position: relative;
+            top: -20px;
+            width: 422px;
+            height: 43px;
+            right: 25px;
+            .box{
+                position: relative;
+                height: 43px;
+                background: none;
+                display: flex;
+                z-index: 0;
+                .input{
+                    position: absolute;
+                    margin-left: 30px;
+                    width: 370px;
+                    height: 43px;
+                    left: 20px;
+                    background: none;
+                    z-index: 0;
+                    border: none;
+                    color: rgb(158, 157, 157);
+                    &:focus{
+                        outline: none;
+                    }
+                }//- end input 
+                &::before{
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    inset: 0;
+                    padding: 2px;
+                    border-radius: 50px;
+                    background: linear-gradient(0deg, #522999, #d53a9d);
+    
+                    -webkit-mask: 
+                    linear-gradient(#fff 0 0) content-box, 
+                    linear-gradient(#fff 0 0);
+    
+                            mask: 
+                    linear-gradient(#fff 0 0) content-box, 
+                    linear-gradient(#fff 0 0);
+                    -webkit-mask-composite: xor;
+    
+                    mask-composite: exclude; 
+                }//- before
+            }//- end box
+            .icon-search{
+                position: absolute;
+                font-size: 20px;
+                left: 20px;
+                top: 12px;
+                color: #858585;
+            }
+            *::placeholder{
+                color: #C2C2C2;
+            }
+
+           
+        }//- end_.conteant_search
+
+        //- Information in header 
+        .user{
+            position: relative;
+            display: flex;
+            padding-left: 20px;
+            .user_img{
+                position: relative;
+                height: 47px;
+                width: 46px;
+                border-radius: 50%;
+                top: -25px;
+            }
+            .user_name{
+                position: relative;
+                font-size: 12px;
+                font-weight: 100;
+                padding-left: 10px;
+                top: -5px;
+                color: #858585;
+            }
+        }
+        //- notification in header   
+        .notification{
+            position: relative;
+            display: flex;
+            padding-left: 30px;
+            .notif-icon{
+                position: relative;
+                font-size: 30px;
+                top: -12px;
+                color: #858585;
+            }
+            .notif_num{
+                position: absolute;
+                background: linear-gradient(0deg, #522999, #d53a9d);
+                color: rgb(255, 255, 255);
+                border-radius: 50%;
+                
+                height: 20px;
+                width: 20px;
+                font-size: 10px;
+                font-weight: 400;
+
+                padding: 1px;
+                text-align: center;
+                top: -15px;
+                right: -5px;
+
+            }
+        } 
+    }//- end_.top_right_header
+
+
+}//- end_header

@@ -23,8 +23,8 @@
     "gulp-livereload": "^4.0.2",
     "gulp-minify": "^3.1.0",
     "gulp-pug": "^5.0.0",
-    "gulp-sass": "^5.1.0",
     "gulp-sourcemap": "^1.0.2",
+    "gulp-sourcemaps": "^3.0.0",
     "sass": "^1.54.3",
     "static-server": "^2.2.1",
     "uglify-js": "^3.16.3"
