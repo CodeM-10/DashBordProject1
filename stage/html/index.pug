@@ -10,9 +10,24 @@ html(lang="en")
             include layout/header.pug
             .main_content  
                 include layout/sidebar.pug
-                .contentPage#contentPage Contvcxvvvxentjccf    
-        
-                 
+                section(class="contentPage" , id="contentPage") 
+                    .container
+                        .section.top_page    
+                            .head_page
+                                h1.title User Management System Overview
+                                .link_acount
+                                    ul 
+                                        li: a(href="#") Accounts
+                                        li  |
+                                        li: a(href="#") Mashael Altobity
+                                            i(class="material-icons arrow_icon") arrow_drop_up
+                            .sub_head
+                                h3 Overview
+                                i(class="material-icons calender_icon") event_available
+
+
+
+
     include layout/scripts.pug 
 
 

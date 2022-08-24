@@ -1,0 +1,48 @@
+//- content Home Page 
+//- top page 
+
+.top_page{
+ 
+    .head_page{
+        display: flex;
+        .title{
+            font-size: 17px;
+            color: #858585;
+        }
+        .link_acount{
+            position: absolute;
+            right: 100px;
+            ul{
+                display: flex;
+                column-gap: 1rem;
+                align-items: flex-end;
+                a{
+                    color: #858585;
+                    font-weight: 300;
+                    font-size: 16px;
+                    .arrow_icon{
+                        position: absolute;
+                        top: 5px;
+
+                    }
+                }
+            }
+        }
+    }//-end head_page
+    .sub_head{
+        padding-top: 30px;
+        display: flex;
+        align-items: center;
+        h3{
+
+        }
+        .calender_icon{
+            position: absolute;
+            right: 80px;
+            font-size: 30px;
+            background: -webkit-linear-gradient( #d53a9d, #522999);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
