@@ -24,9 +24,78 @@ html(lang="en")
                             .sub_head
                                 h3 Overview
                                 i(class="material-icons calender_icon") event_available
+                                    //- input(type='date')
                         
                         .section.body_content
                             section.content_statistics
+                                //- Total Number of Transaction
+                                .box_stat#Transaction
+                                    .choose_icon#choose_icon
+                                        i.material-icons more_vert
+                                        ul.choose_lest#choose_lest
+                                            li: a(href="#") View
+                                            li: a(href="#") Delete
+                                    .middle
+                                        .progress
+                                            svg
+                                                circle(cx='38' , cy='38', r='36')
+                                            .number: p 1500
+
+                                        .right
+                                            h3 Total Number <br> of Transaction
+   
+                                        .small.num_under
+                                            p 22.8%
+                                            i(class="material-icons arrow_icon") arrow_drop_up
+
+                                //- Total Number of Trade
+                                .box_stat#Trade
+                                    .choose_icon#choose_icon
+                                        i.material-icons more_vert
+                                        ul.choose_lest#choose_lest
+                                            li: a(href="#") View
+                                            li: a(href="#") Delete
+                                    .middle
+                                        .progress
+                                            svg
+                                                circle(cx='38' , cy='38', r='36')
+                                            .number: p 43498
+
+                                        .right
+                                            h3 Total Number <br> of Transaction
+   
+                                        .small.num_under
+                                            p 11.8%
+                                            i(class="material-icons arrow_icon") arrow_drop_up
+                                            
+                                //- Market Rate Value
+                                .box_stat#Rate
+                                    .choose_icon#choose_icon
+                                        i.material-icons more_vert
+                                        ul.choose_lest#choose_lest
+                                            li: a(href="#") View
+                                            li: a(href="#") Delete
+                                    .middle
+                                        .progress
+                                            svg
+                                                circle(cx='38' , cy='38', r='36')
+                                            .number: p 87%
+
+                                        .right
+                                            h3 Market <br> Rate Value
+   
+                                        .small.num_under
+                                            p 11.8%
+                                            i(class="material-icons arrow_icon") arrow_drop_up
+
+
+
+
+
+
+
+
+                            //-
                                 //- Total Number of Transaction
                                 .box_stat#num_transaction
                                     span: span.intro_circle
