@@ -1,6 +1,7 @@
 //- content Home Page 
-//- top page 
 
+
+//- top page 
 .top_page{
  
     .head_page{
@@ -60,10 +61,10 @@
         background: #fff;
         border: 2px solid #F0F0F0;
         border-radius: 2rem;
-        padding: 1.8rem;
-        //- **
-        padding-right: 1.8rem;
-        padding-bottom:50px ;
+        height: 165px;
+        width: 314px;
+        padding:1rem 1.8rem 0 1.8rem;
+    
         
         .choose_icon{
             position: absolute;
@@ -169,6 +170,7 @@
                     align-items: center;
                     bottom: -30px;
                     left: 5px;
+                    color: #1CD1A1;
                 }
             }
             

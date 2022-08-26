@@ -1,9 +1,11 @@
 
-//- import file.scss 
+//-  Style Static Page (Header, sidebar, global variables
 @import 'sass/layout/global';
 @import 'sass/layout/header';
 @import 'sass/layout/sidebar';
-@import 'sass/layout/contentPage';
+
+//-  Style The content Pages 
+@import 'sass/page/contentHomePage';
 
 
 

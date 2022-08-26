@@ -11,13 +11,12 @@
     .link_sidebar{
         li{
             a{
-                padding-left: 45px;
-                margin-top: 28px;
-
                 position: relative;
                 display: flex;
                 align-items: center;
-            
+
+                padding-left: 45px;
+                margin-top: 28px;
             
                 height: 50px;
                 line-height: 50px;
@@ -33,29 +32,30 @@
                     background: -webkit-linear-gradient( #d53a9d, #522999);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
-
+                    // &:focus{
+                    //     color:#fff;
+                    // }
                 }
                 .num_in_li{
-                    position: relative;
+                    position: absolute;
                     font-size: 10px;
                     color: #fff;
                     background: linear-gradient(0deg, #522999, #d53a9d);
                     border-radius: 50%;
                     
+                    height: 20px;
+                    width: 23px;
                     padding: 6px;
                 
                     display: flex;
                     align-items: center;
-                    margin-left: 45%;
-
-                    height: 20px;
-                    width: 23px;
-                
-                }
-                .num_long_text{
-                    margin-left: 20%;
-                }
-                
+                    right: 30px;
+                    // &:focus{
+                    //     background: #fff;
+     
+                     
+                    // }
+                } 
                 &:focus{
                     background: -webkit-linear-gradient( #d53a9d, #522999);
                     color:#fff;
