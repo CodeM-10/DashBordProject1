@@ -112,16 +112,35 @@
                 width: 95px;
                 height: 90px;
                 border-radius: 50%;
-                svg{
+                svg {
                     width: 7rem;
                     height: 7rem;
                     circle{
                         fill: none;
-                        stroke: #d53a9d;
                         stroke-width: 14;
                         stroke-linecap: round;
                         transform: translate(5px,5px);
                         stroke-dasharray: 90;
+                        transition: all .8s ease-out ; //- *_*
+                        z-index: 1;
+                    }
+                    .inder_circle{
+                        z-index: 0;
+                        stroke: #FAA9C6;
+                        stroke-dasharray: 300;
+                        transition: none; //- *_*  
+                    }
+                    //- changing stroke-dasharray of circle in div 2 and div 3
+                    .Trade_circle{
+                        stroke-dasharray: 120;
+                        stroke-dashoffset:70;
+                    }
+                    .Rate_circle{
+                        stroke-dasharray: 200;
+
+
+
+
                         
                     }
                 }
@@ -136,4 +155,8 @@
 
     }
 
+ 
+
+       
+    
 }

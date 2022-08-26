@@ -38,8 +38,14 @@ html(lang="en")
                                     .middle
                                         .progress
                                             svg
-                                                circle(cx='38' , cy='38', r='36')
-                                            .number: p 1500
+                                                defs
+                                                    linearGradient(id="gradient", x1='0%', y1='0%', x2='0%',y2='100%')
+                                                        stop(offset='0%', stop-color='#d53a9d')
+                                                        stop(offset='100%', stop-color='#522999')
+                                                circle(class='inder_circle', cx='38' , cy='38', r='36')    
+                                                circle(cx='38' , cy='38', r='36', stroke="url(#gradient)" transform='rotate(90 50 50)')
+                                                
+                                            .number: p 1500 
 
                                         .right
                                             h3 Total Number <br> of Transaction
@@ -58,7 +64,13 @@ html(lang="en")
                                     .middle
                                         .progress
                                             svg
-                                                circle(cx='38' , cy='38', r='36')
+                                                defs
+                                                    linearGradient(id="gradient", x1='0%', y1='0%', x2='0%',y2='100%')
+                                                        stop(offset='0%', stop-color='#d53a9d')
+                                                        stop(offset='100%', stop-color='#522999')
+                                                circle(class='inder_circle', cx='38' , cy='38', r='36')    
+                                                circle(class='Trade_circle' ,cx='38' , cy='38', r='36', stroke="url(#gradient)" transform='rotate(90 50 50)')
+                                                
                                             .number: p 43498
 
                                         .right
@@ -78,7 +90,13 @@ html(lang="en")
                                     .middle
                                         .progress
                                             svg
-                                                circle(cx='38' , cy='38', r='36')
+                                                defs
+                                                    linearGradient(id="gradient", x1='0%', y1='0%', x2='0%',y2='100%')
+                                                        stop(offset='0%', stop-color='#d53a9d')
+                                                        stop(offset='100%', stop-color='#522999')
+                                                circle(class='inder_circle', cx='38' , cy='38', r='36')    
+                                                circle(class='Rate_circle',cx='38' , cy='38', r='36', stroke="url(#gradient)" transform='rotate(90 50 50)')
+                                                
                                             .number: p 87%
 
                                         .right
