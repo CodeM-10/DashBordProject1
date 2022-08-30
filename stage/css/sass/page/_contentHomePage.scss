@@ -286,63 +286,39 @@
         gap: 3.5rem;
         margin-top: 2rem;
         // .prize_icon{}
-        .total_earnings {
+        .content_wallet {
+            margin-top: 20px;
             position: relative;
             h3{
-                
+                position: relative;
+                right:35px;
                 background: linear-gradient(0deg, #FC58B3, #FEAE68);
                 border-radius: 50px;
                 color:#fff;
-               max-width: 50%;
+                max-width: 50%;
                 text-align: center;
                 font-weight: 100;
                 font-size: 17px;
+                margin-bottom: 5px;
+
             }
             .num_earnings{
-                position: relative;
-                left: 25px;
+                
                 color: #fff;
-                font-size: 20px;
+                font-size: 30px;
                 font-weight: 600;
            
             }
             p{color: #fff;
-                position: relative;
-                left: 25px;
+                
                 font-size: 15px;
 
             }
 
         }
     }//- body wallet
-    .balance{
-        padding-right: 10px;
+    
 
-        h3{
-
-            background: linear-gradient(0deg, #FC58B3, #FEAE68);
-            border-radius: 50px;
-            color:#fff;
-           max-width: 50%;
-            text-align: center;
-            font-weight: 100;
-            font-size: 17px;
-        }
-        .num_earnings{
-            position: relative;
-
-            left: 25px;
-            color: #fff;
-            font-size: 20px;
-            font-weight: 600;
-            left: 25px;
-        }
-        p{
-            color: #fff;
-            position: relative;
-            left: 25px;
-        }
-
-    }
+    
 
 }
