@@ -144,12 +144,22 @@ html(lang="en")
                                             td Bitcoin BTC
                                             td N400.00
                             section.wallet
+                                .start
+                                    object(class='star1', data='img/star-svg.svg')
+                                    object(class='star2', data='img/star-svg.svg')
+                                    object(class='star3', data='img/star-go.svg')
+                                    i(class="lni lni-star-filled star4")
+                                    i(class="lni lni-star-filled star5")
+                                    i(class="lni lni-star-filled star6")
+                                    i(class="lni lni-star-filled star7")
                                 .top_wallet
                                     h2 wallet
                                     .wrapper  
                                         .withdraw_funds Withdraw Funds
                                 .body_wallet
-                                    .prize_icon
+                                    .prize_icon 
+                                        object(class='ob1', data='img/prize-img.svg')
+                                    img(class='ob2' src="img/prize-img.svg#svgView(viewBox(80,-100,400,550))")
                                     .content_wallet#total_earnings 
                                         h3 Total Earnings
                                         span.num_earnings #120000.00
@@ -158,7 +168,12 @@ html(lang="en")
                                         h3 Balance
                                         span.num_earnings #30000.00
                                         p please note this the current balance<br> amount left on ya' wallet.
-
+                            section.box_statistics
+                                .top_box
+                                    h2 Statistics
+                                    i.material-icons.round_icon more_vert
+                                .body_box
+                                    h2 My Own Report
 
 
 
