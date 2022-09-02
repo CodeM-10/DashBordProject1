@@ -4,7 +4,6 @@ html(lang="en")
     head
         include layout/meta.pug
         include layout/style.pug
-
     body 
         .page.homepage 
             include layout/header.pug
@@ -31,7 +30,7 @@ html(lang="en")
                                 //- Total Number of Transaction
                                 div(class='box_stat', id=' Transaction')
                                     div(class='choose_icon' , id='choose_icon')
-                                        i.material-icons more_vert
+                                        i.material-icons#click_icon more_vert
                                         ul(class='choose_lest' ,id='choose_lest')
                                             li: a(href="#") View
                                             li: a(href="#") Delete
@@ -55,7 +54,7 @@ html(lang="en")
                                 //- Total Number of Trade
                                 div(class='box_stat', id=' Trade')
                                     div(class='choose_icon' , id='choose_icon')
-                                        i.material-icons more_vert
+                                        i.material-icons#click_icon more_vert
                                         ul(class='choose_lest' ,id='choose_lest')
                                             li: a(href="#") View
                                             li: a(href="#") Delete
@@ -75,11 +74,11 @@ html(lang="en")
                                             h3 Total Number <br> of Transaction
                                             p 11.8%
                                              i(class="material-icons arrow_icon") arrow_drop_up
-                                            
+                                             
                                 //- Market Rate Value
                                 div(class='box_stat', id='rate')
                                     div(class='choose_icon' , id='choose_icon')
-                                        i.material-icons more_vert
+                                        i.material-icons#click_icon more_vert
                                         ul(class='choose_lest' ,id='choose_lest')
                                             li: a(href="#") View
                                             li: a(href="#") Delete
@@ -197,7 +196,7 @@ html(lang="en")
                                             tr    
                                                 td 14/7/2022
                                                 td 12345678
-                                                td: i.lni.lni-wallet.type_icon
+                                                td: i(class='lni lni-bitcoin type_icon')
                                                 td Bitcnin
                                                 td $100
                                                 td #18000td 
@@ -216,7 +215,7 @@ html(lang="en")
                                             tr    
                                                 td 14/7/2022
                                                 td 12345678
-                                                td: i.lni.lni-wallet.type_icon
+                                                td: i(class='lni lni-bitcoin type_icon')
                                                 td Bitcnin
                                                 td $100
                                                 td #18000td 
@@ -232,9 +231,5 @@ html(lang="en")
                                                 td.Status: p completed
                                                 td: i.material-icons.round_i more_vert
                                 .more View More
-                    
 
     include layout/scripts.pug 
-
-
-
