@@ -78,9 +78,7 @@
                     right: -20px;
                     top: 15px;
                     ul{
-                        // position: relative;
-                        // top: 0px;
-                        // right: -40px;
+        
                         padding: 7px ;
 
                     }
@@ -141,13 +139,53 @@
 //- Iam heer =)
 
 @media only screen and (max-width: 996px) {
-    .page{
-      
+    .page{  
+        .header{
+
+            .top_right_header{
+                right:35px;
+                .conteant_search{
+                    
+                    left: 20px;
+                    width: 262px;
+                    top: -15px;
+                    height: 37px;
+                    .icon-search{
+                        top: 8px;
+                    }
+    
+                }
+            
+                .user{
+                    padding-left: 0px;
+                    left: 25px;
+                 
+                    .user_img{
+                        height: 37px;
+                        width: 36px;
+                        top: -16px;
+                        left: 7px;
+    
+                    }
+    
+                }
+                .notification{
+                    .notif-icon{
+                    font-size: 25px;
+                    top: -9px;
+                    }
+            
+    
+                }
+               
+            }
+        }
         .contentPage{
             width: calc(100% - 80px);
             float: right;
         }
         .sidebar{
+            z-index: 2;
             width: 70px;
             overflow-x: hidden;
             .link_sidebar{
@@ -155,8 +193,6 @@
                     a{
                         height: 40px;
                         padding-left: 35px;
-                          
-            
                         .num_in_li{
                             position: absolute;
                             right: -40px;
@@ -173,26 +209,7 @@
 
         }
         
-        .wallet{
-            padding: 1.8rem ;
-            .body_wallet{
-                .ob2{
-                    position: absolute;
-                    left: 100px;
-                    top: 0px;
-                    height: 173px;
-                    z-index: 1;
-                }
-                .content_wallet {
-                    margin-top: 20px;
-                    position: relative;
-                    h3{
-                        font-size: 13px;
-
-                    }
-                }
-            }
-        }
+     
 
 
     }
@@ -200,39 +217,182 @@
 
 }
 
-@media only screen and (max-width: 950px) {
+
+
+@media only screen and (max-width: 800px){
+    // .page.wallet .body_wallet .ob2 {
+    //     position: absolute;
+    //     left: 150px;
+    //     top: 120px;
+    //     height: 173px;
+    //     z-index: 1;
+    //  }
     .page{
-      
-  
-        .wallet{
-            padding: 1.8rem ;
-            .body_wallet{
+        .sidebar{
+            position: fixed;
+            left: 0;
+            top: 0;
+            background-color: #fff;
+            width: 15rem;
+            height: 100vh;
+            z-index: 5;
+            border-right: 2px solid #f0f0f0;
+            display: none;
+            #close{
+                display: block;
+                position:absolute;
+                right: 20px;
+                top: 30px;
+                font-weight: 800;
+                cursor: pointer;
+                
+            }
+            .toggle{
 
-                .ob2{
-                    position: absolute;
-                    left:  52px;
-                    top: -17px;
-                    height: 173px;
-                    z-index: 1;
-                }
-                .content_wallet {
-                    margin-top: 20px;
-                    position: relative;
-                    h3{
-                        font-size: 13px;
+            }
+      
+            .link_sidebar{
+                margin-bottom: 105px;
+
+                li{
+                    a{
+                        top: 4rem;
 
                     }
                 }
             }
+         
+
+        }
+
+        .contentPage{
+            min-width: 100%;
+            padding: 0rem 1rem ;
+            margin: auto;
+
+        }
+        .container{
+            width: 95%;
+            margin: auto;
+           
+        }
+        .content_statistics{
+            grid-template-columns: 1fr;
+            .box_stat{
+                width: 85%;
+                margin: auto;
+                padding:1.8rem ;
+                padding-bottom: 2.4rem;
+                .choose_icon{
+                    right: -45px;
+                    top: 19px;
+                    .choose_lest{
+                        top: -10px;
+                        left: 0px;
+                        padding: 11px 30px 8px 9px ;
+                    }
+
+                }
+                    
+                .middle{
+                    .progress{
+                        position: relative;
+                        left: 0px;
+                        top: 5px;
+                        margin-right: 5px;
+                        width: 95px;
+                        height: 90px;
+                    
+                        .number{}
+                    }
+                    .right{
+                        padding-left: 10px;
+
+                        h3{
+                            font-size: 18px;
+                        }
+                    }
+                }
+
+
+
+            }
+   
+           
+        }
+    
+        .conversion_rate {
+            position: relative;
+            margin: 3rem 0 0 0;
+            width: 100%;
+            padding:0;
+            padding-top: 20px;
+            padding-right: 40px;
+            .top_table{
+                .round_icon{
+                    right: -15px;
+                    top: 0;
+                }
+                .arrow{
+                    font-size: 15px;
+                    font-weight:800;
+                    right: -25px ;
+                    top: 200px;
+                }
+        
+            }
+            table{
+                width: 100%;
+                margin: 0 auto 4rem;
+                
+            }
+        }
+    
+        .wallet{
+            .body_wallet{
+                padding-right: 40px;
+                .content_wallet{
+                    margin-top: 5px;
+                    h3{
+                        right:0px;
+                        font-weight: 800;
+                        font-size: 14px;
+                        max-width: 90%;
+
+
+
+                    }
+
+                }
+
+            }
+        }
+        .transaction{
+            position: relative;
+            margin: 3rem 0 0 0;
+            width: 100%;
+            padding:0;
+            padding-top: 20px;
+            margin-bottom: 90px;
+            .top_transaction{
+                .round_i{
+                    right: 60px;
+                    top: 0;
+                }
+            }
+            table{
+                width: 100%;
+                margin: 0 auto 0rem;
+            }
+            .more{
+                margin-bottom: 20px;
+            }
         }
 
 
+
     }
-
-
 }
-
-
 
 
 
