@@ -1,3 +1,22 @@
+//- Just wallet 
+
+@media only screen and (max-width: 1600px) {
+    .page{
+        .wallet{
+            padding: 1rem ;
+            .body_wallet{
+                .ob2{
+                    position: absolute;
+                    left: 43px;
+                    top: -17px;
+                    height: 173px;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
+
 
 @media only screen and (max-width: 1200px) {
     .page{ 
@@ -30,7 +49,7 @@
 
                 .ob2{
                     position: absolute;
-                    left: 47px;
+                    left: 43px;
                     top: -17px;
                     height: 173px;
                     z-index: 1;
@@ -45,7 +64,7 @@
 }
 
 
-@media only screen and (max-width: 1106px) {
+@media only screen and (max-width: 1126px) {
     .page{
       
         .contentPage{
@@ -112,7 +131,7 @@
 
                 .ob2{
                     position: absolute;
-                    left: 32px;
+                    left: 40px;
                     top: -17px;
                     height: 173px;
                     z-index: 1;
@@ -131,14 +150,46 @@
 
     }
 }
+//- Just wallet 
+
+@media only screen and (max-width: 1099px) {
+    .page{
+        .wallet{
+            padding: 1rem ;
+            .body_wallet{
+                .ob2{
+                    position: absolute;
+                    left: 40px;
+                    top: -17px;
+                    height: 173px;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
+
+//- Just wallet 
+
+@media only screen and (max-width: 1059px) {
+    .page{
+        .wallet{
+            padding: 1rem ;
+            .body_wallet{
+                .ob2{
+                    position: absolute;
+                    left: 39px;
+                    top: -17px;
+                    height: 173px;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
 
 
-
-
-
-//- Iam heer =)
-
-@media only screen and (max-width: 996px) {
+@media only screen and (max-width: 997px) {
     .page{  
         .header{
 
@@ -208,7 +259,18 @@
    
 
         }
-        
+        .wallet{
+            padding: 1rem ;
+            .body_wallet{
+                .ob2{
+                    position: absolute;
+                    left: 43px;
+                    top: -17px;
+                    height: 173px;
+                    z-index: 1;
+                }
+            }
+        }
      
 
 
@@ -216,18 +278,77 @@
 
 
 }
+//- Just wallet 
+
+@media only screen and (max-width: 931px) {
+    .page{
+        .wallet{
+            padding: 1rem ;
+            .body_wallet{
+                .ob2{
+                    position: absolute;
+                    left: 39px;
+                    top: -17px;
+                    height: 173px;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
+//- Just wallet 
+
+@media only screen and (max-width: 884px) {
+    .page{
+        .wallet{
+            padding: 1rem ;
+            .body_wallet{
+                .ob2{
+                    position: absolute;
+                    left: 35px;
+                    top: -17px;
+                    height: 173px;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
+//- Just wallet 
+
+@media only screen and (max-width: 840px) {
+    .page{
+        .wallet{
+            padding: 1rem ;
+            .body_wallet{
+                .ob2{
+                    position: absolute;
+                    left: 33px;
+                    top: -17px;
+                    height: 173px;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
 
 
 
 @media only screen and (max-width: 800px){
-    // .page.wallet .body_wallet .ob2 {
-    //     position: absolute;
-    //     left: 150px;
-    //     top: 120px;
-    //     height: 173px;
-    //     z-index: 1;
-    //  }
+    .page.wallet .body_wallet .ob2 {
+        position: absolute;
+        left: 150px;
+        top: 120px;
+        height: 173px;
+        z-index: 1;
+     }
     .page{
+        .header{
+            .toggle{
+                display: inline;
+            }
+        }
         .sidebar{
             position: fixed;
             left: 0;
@@ -349,8 +470,9 @@
         }
     
         .wallet{
+            padding: 1.8rem ;
             .body_wallet{
-                padding-right: 40px;
+                // padding-right: 40px;
                 .content_wallet{
                     margin-top: 5px;
                     h3{
@@ -364,6 +486,16 @@
                     }
 
                 }
+                
+                .ob2{
+                    position: absolute;
+                    left: 29px;
+                    top: -17px;
+                    height: 173px;
+                    z-index: 1;
+                }
+                
+           
 
             }
         }
@@ -393,192 +525,76 @@
 
     }
 }
+//- Just wallet 
+@media only screen and (max-width: 744px) {
+    .page{
+        .wallet{
+            padding: 1rem ;
+            .body_wallet{
+                .ob2{
+                    position: absolute;
+                    left: 26px;
+                    top: -17px;
+                    height: 173px;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
+//- Just wallet 
+
+
+@media only screen and (max-width: 688px) {
+    .page{
 
 
 
 
 
-
+        .wallet{
+            padding: 1rem ;
+            .body_wallet{
+                padding-right: 2rem;
+                .ob2{
+                    position: absolute;
+                    left: 24px;
+                    top: -17px;
+                    height: 173px;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
 
 
 
 //- Just wallet 
 
-@media only screen and (max-width: 1166px) {
+
+
+
+
+@media only screen and (max-width: 1014px) {
     .page{
-      
-       
         .wallet{
             padding: 1rem ;
             .body_wallet{
-
                 .ob2{
                     position: absolute;
-                    left: 44px;
                     top: -17px;
                     height: 173px;
                     z-index: 1;
                 }
-           
             }
         }
-
-
     }
 }
 
-@media only screen and (max-width: 1149px) {
-    .page{
-      
-       
-        .wallet{
-            padding: 1rem ;
-            .body_wallet{
-
-                .ob2{
-                    position: absolute;
-                    left: 42px;
-                    top: -17px;
-                    height: 173px;
-                    z-index: 1;
-                }
-           
-            }
-        }
 
 
-    }
-}
-@media only screen and (max-width: 1243px) {
-    .page{
-      
-       
-        .wallet{
-            padding: 1rem ;
-            .body_wallet{
-
-                .ob2{
-                    position: absolute;
-                    left: 45px;
-                    top: -17px;
-                    height: 173px;
-                    z-index: 1;
-                }
-           
-            }
-        }
 
 
-    }
-}
-@media only screen and (max-width: 1124px) {
-    .page{
-      
-       
-        .wallet{
-            padding: 1rem ;
-            .body_wallet{
-
-                .ob2{
-                    position: absolute;
-                    left: 41px;
-                    top: -17px;
-                    height: 173px;
-                    z-index: 1;
-                }
-           
-            }
-        }
 
 
-    }
-}
-@media only screen and (max-width: 1075px) {
-    .page{
-      
-       
-        .wallet{
-            padding: 1rem ;
-            .body_wallet{
-
-                .ob2{
-                    position: absolute;
-                    left: 39px;
-                    top: -17px;
-                    height: 173px;
-                    z-index: 1;
-                }
-           
-            }
-        }
-
-
-    }
-}
-
-@media only screen and (max-width: 1054px) {
-    .page{
-      
-       
-        .wallet{
-            padding: 1rem ;
-            .body_wallet{
-
-                .ob2{
-                    position: absolute;
-                    left: 37px;
-                    top: -17px;
-                    height: 173px;
-                    z-index: 1;
-                }
-           
-            }
-        }
-
-
-    }
-}
-@media only screen and (max-width: 1072px) {
-    .page{
-      
-       
-        .wallet{
-            padding: 1rem ;
-            .body_wallet{
-
-                .ob2{
-                    position: absolute;
-                    left: 36px;
-                    top: -17px;
-                    height: 173px;
-                    z-index: 1;
-                }
-           
-            }
-        }
-
-
-    }
-}
-@media only screen and (max-width: 1013px) {
-    .page{
-      
-       
-        .wallet{
-            padding: 1rem ;
-            .body_wallet{
-
-                .ob2{
-                    position: absolute;
-                    left: 35px;
-                    top: -17px;
-                    height: 173px;
-                    z-index: 1;
-                }
-           
-            }
-        }
-
-
-    }
-}

@@ -33,7 +33,7 @@ const
         .pipe(livereload())
     }  
     function jsTask() {
-        return src("stage/js/*.js")
+        return src("stage/js/main.js")
         .pipe(concat('main.js'))
         .pipe(minify())
         .pipe(dest('dest/js'))
@@ -44,8 +44,8 @@ const
         require("./server.js");
         livereload.listen();
         gulp.watch("stage/html/**/*.pug", parallel(htmlTask));
-        gulp.watch(["stage/css/**/*.css" , "stage/css/**/*.scss"], parallel( CssTask));
-        gulp.watch(["stage/js/*.js"], parallel( jsTask));
+        gulp.watch(["stage/css/**/*.css" , "stage/css/**/*.scss"], parallel(CssTask));
+        gulp.watch("stage/js/main.js", parallel(jsTask));
 
 
     }; 
