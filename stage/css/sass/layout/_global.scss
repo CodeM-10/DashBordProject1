@@ -65,11 +65,10 @@ h3{
         background-color: #fff9fe;
 
         will-change: width;
-        height: 100vh;
+        height: 100%;
         gap: 1.8rem;
 
         border-left: 2px solid #F0F0F0 ; 
-        transition:  .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
     }
     .container{
         background-color: #fff9fe;
@@ -131,5 +130,21 @@ h3{
         position: absolute;
         right: -55px;
         transform: rotateZ(270deg);
+        cursor: pointer;
+    }
+    .choose_lest_rate{
+        position: absolute;
+        display: none;
+        right: -110px;
+        top: 49px;
+        background-color: #fff;
+        border: 1px solid #F0F0F0;
+        border-radius: .5rem;
+        padding: 11px 30px 8px 9px ;
+        li{
+            a{
+                color: #858585;
+            }
+        }
     }
 }

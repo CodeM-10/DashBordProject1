@@ -21,15 +21,17 @@
         padding-bottom: 2.4rem;
         .choose_icon{
             position: absolute;
-            right: -45px;
+            right: 20px;
+            top: 15px;
             i{
                 transform: rotateZ(270deg);
                 cursor: pointer;
             }
             .choose_lest{
-                position: relative;
-                top: -10px;
+                position: absolute;
+                top: 19px;
                 left: 0px;
+                display: none;
                 background-color: #fff;
                 border: 1px solid #F0F0F0;
                 border-radius: .5rem;
@@ -39,12 +41,13 @@
                     a{
                         color: #858585;
                     }
-                    a:focus{
-                        background-color: red;
-                        color: #fff;
-                    }
+                    // a:focus{
+                    //     background-color: red;
+                    //     color: #fff;
+                    // }
                 }
             }
+           
         }
         .middle{
             position: relative;
@@ -157,7 +160,10 @@
             font-weight:800;
             
         }
+
+
     } //- end .top_table
+  
     table{
         width: 100%;
         padding:1rem ;
@@ -405,13 +411,13 @@
         align-items: center;
         left: 40px;
         top: 5px;
-        h2{
-       
-         }
-        .round_i{
-            position: absolute;
+        .round_icon{
             right: 50px;
-            transform: rotateZ(270deg);
+        }
+        .choose_lest_rate{
+            right: -10px;
+            top: 35px;
+
         }
     }
     table{

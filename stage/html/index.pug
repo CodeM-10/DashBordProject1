@@ -24,14 +24,14 @@ html(lang="en")
                                 h3 Overview
                                 i(class="material-icons calender_icon") event_available
                                     //- input(type='date')
-                 
+            
                         .section.body_content
                             section.content_statistics
                                 //- Total Number of Transaction
                                 div(class='box_stat', id=' Transaction')
-                                    div(class='choose_icon' , id='choose_icon')
-                                        i.material-icons#click_icon more_vert
-                                        ul(class='choose_lest' ,id='choose_lest')
+                                    div(class='choose_icon' )
+                                        i(class='material-icons', id="click_icon1") more_vert
+                                        ul(class='choose_lest' ,id='choose_lest1')
                                             li: a(href="#") View
                                             li: a(href="#") Delete
                                     .middle
@@ -53,9 +53,9 @@ html(lang="en")
 
                                 //- Total Number of Trade
                                 div(class='box_stat', id=' Trade')
-                                    div(class='choose_icon' , id='choose_icon')
-                                        i.material-icons#click_icon more_vert
-                                        ul(class='choose_lest' ,id='choose_lest')
+                                    div(class='choose_icon' )
+                                        i(class='material-icons', id="click_icon2" ) more_vert
+                                        ul(class='choose_lest' ,id='choose_lest2')
                                             li: a(href="#") View
                                             li: a(href="#") Delete
                                     .middle
@@ -74,12 +74,12 @@ html(lang="en")
                                             h3 Total Number <br> of Transaction
                                             p 11.8%
                                              i(class="material-icons arrow_icon") arrow_drop_up
-                                             
+                                            
                                 //- Market Rate Value
                                 div(class='box_stat', id='rate')
-                                    div(class='choose_icon' , id='choose_icon')
-                                        i.material-icons#click_icon more_vert
-                                        ul(class='choose_lest' ,id='choose_lest')
+                                    div(class='choose_icon' )
+                                        i(class='material-icons', id="click_icon3" ) more_vert
+                                        ul(class='choose_lest' ,id='choose_lest3')
                                             li: a(href="#") View
                                             li: a(href="#") Delete
                                     .middle
@@ -101,7 +101,10 @@ html(lang="en")
                             section.conversion_rate 
                                 .top_table
                                     h2 Conversion Rate to Naira
-                                    i.material-icons.round_icon more_vert
+                                    i(class="material-icons round_icon ", id="round_icon" ) more_vert
+                                    ul(class='choose_lest_rate', id= "choose_lest_rate1" )
+                                        li: a(href="#") View
+                                        li: a(href="#") Delete
                                     i(class='lni lni-arrow-right arrow') 
                                 table
                                     thead 
@@ -179,7 +182,10 @@ html(lang="en")
                             section.transaction
                                 .top_transaction
                                     h2 Transactions
-                                    i(class='material-icons round_i') more_vert
+                                    i(class='material-icons round_icon', onclick="lest_active_rate2()" ) more_vert
+                                    ul(class='choose_lest_rate' , id= "choose_lest_rate2  ")
+                                        li: a(href="#") View
+                                        li: a(href="#") Delete
                                 table.body_transaction
                                     thead
                                         tr

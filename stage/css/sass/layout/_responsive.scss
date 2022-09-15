@@ -94,12 +94,10 @@
 
                 .choose_icon{
                     position: absolute;
-                    right: -20px;
+                    right:15px;
                     top: 15px;
                     ul{
-        
-                        padding: 7px ;
-
+                        padding: 11px 20px 8px 9px ;
                     }
                 }
                 .middle{
@@ -359,6 +357,8 @@
             z-index: 5;
             border-right: 2px solid #f0f0f0;
             display: none;
+          
+
             #close{
                 display: block;
                 position:absolute;
@@ -405,10 +405,10 @@
                 padding:1.8rem ;
                 padding-bottom: 2.4rem;
                 .choose_icon{
-                    right: -45px;
+                    right: 20px;
                     top: 19px;
                     .choose_lest{
-                        top: -10px;
+                        top: 20px;
                         left: 0px;
                         padding: 11px 30px 8px 9px ;
                     }
@@ -459,6 +459,11 @@
                     font-weight:800;
                     right: -25px ;
                     top: 200px;
+                }
+                .choose_lest_rate{
+                    position: absolute;
+                    right: -80px;
+                    top: 20px;
                 }
         
             }
