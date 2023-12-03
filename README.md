@@ -12,7 +12,9 @@
       SASS code is processed by the program and compiled into CSS code, which can be used to style HTML elements. SASS controls how it appears on the web page. 
 <hr>
 
-### View Screenshots
+## Interface
+Some screenshots of the pages.
+
   <img src="dest/img/Screen1.png" alt="Logo" width="500" height="380">
   <img src="dest/img/Screen2.png" alt="Logo" width="500" height="380">
 
