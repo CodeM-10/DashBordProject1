@@ -14,7 +14,8 @@
 <hr>
 
 ### View Screenshots
-  <img src="dest/img/Screen1.png" alt="Logo" width="500" height="380"><img src="dest/img/Screen2.png" alt="Logo" width="500" height="380">
+  <img src="dest/img/Screen1.png" alt="Logo" width="500" height="380">
+  <img src="dest/img/Screen2.png" alt="Logo" width="500" height="380">
 
 > <a href="https://codem-10.github.io/DashbordProject-For-viewing">View Demo</a>
 
