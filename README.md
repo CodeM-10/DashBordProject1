@@ -5,8 +5,7 @@
 
 <hr>
 
-## Technological Choices
- To develop my project I used:
+## Technologies Used:
  - JavaScript: is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty . 
  - Pug: is a high-performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers.
  - Sass: Short for Syntactically Awesome Style Sheets, SASS is a popular CSS pre-processor. 
